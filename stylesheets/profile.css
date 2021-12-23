@@ -1,0 +1,130 @@
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+  }
+  
+  .profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 125px;
+    height: 125px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+  
+  .profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #2e3b4b;
+  }
+  
+  .profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  
+  .profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+  }
+  
+  .profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+  }
+      
+  .profile-usermenu {
+  }
+  
+  .profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .profile-usermenu ul li a i {
+      width: 23px;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  
+  .profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+  }
+  
+
+  .profile-sidebar  .nav>li>a:hover {
+      border-bottom: none !important;
+  }
+
+.table#profile-details-table {
+    margin-top: 20px;
+    color: #93a3b5;
+}
+
+.table#profile-details-table tr td:first-of-type {
+  white-space: nowrap;  
+}
+
+#user-bookmarks-wrap {
+	padding-top: 10px;
+}
+
+.torrent-bookmark-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.torrent-bookmark-box-content {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.torrent-bookmark-box .torrent-bookmark-box-image {
+	width: 80px;
+	margin-left: 20px;	
+}
+
+.torrent-bookmark-box .torrent-bookmark-box-image img.torrent-view-poster {
+	height: 80px;
+	max-width: 80px;
+	margin: auto;
+}
+
+.torrent-bookmark-remove {
+    height: 30px;
+    width: 30px;
+	background-color: #b73c3c;
+	border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+	left: 0px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}

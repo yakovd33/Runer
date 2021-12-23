@@ -1,0 +1,81 @@
+.torrent-details-box {
+    
+}
+
+.torrent-details-box-content {
+    display: inline-grid;
+}
+
+.torrent-details-box button {
+    margin: 6px 0px;
+}
+
+.torrent-download-btns {
+    display: flex;
+}
+
+.torrent-download-btn {
+    flex-grow: 1;
+}
+
+.magnet-torrent-btn {
+    width: 60px;
+    margin-left: 5px !important;
+}
+
+#torrent-description {
+    margin-top: 10px;
+}
+
+#torrent-poster-wrap {
+    position: relative;
+    width: 220px;
+    height: 326px;
+}
+
+#torrent-poster-wrap .block-arrow {
+    top: 10px;
+}
+
+#torrent-poster-wrap .bookmark-it {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    background-color: #7f8c8d;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px 2px 2px 0px;
+    cursor: pointer;
+}
+
+#torrent-poster-wrap .bookmark-it i {
+    vertical-align: top;
+    transform: translateX(-4px);
+    margin-top: 5px;
+    font-size: 20px;
+    color: #3c4a5b;
+}
+
+#torrent-poster-wrap .bookmark-it.active i {
+    color: #964242 !important;
+}
+
+.torrent-view-poster {
+    width: 220px;
+    height: 326px;
+    max-width: 220px;
+    max-height: 100%;
+}
+
+#edit-torrents {
+    float: left;
+    margin-top: 20px;
+}
+
+#edit-torrents a {
+    text-decoration: none;
+}

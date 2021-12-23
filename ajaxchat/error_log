@@ -1,0 +1,10 @@
+[16-Aug-2017 13:58:29 UTC] PHP Notice:  Undefined index: bonus in /home/eropa/public_html/include/config.php on line 262
+[16-Aug-2017 13:58:29 UTC] PHP Notice:  Undefined index: price_vip in /home/eropa/public_html/include/config.php on line 263
+[16-Aug-2017 13:58:29 UTC] PHP Notice:  Undefined index: price_ct in /home/eropa/public_html/include/config.php on line 264
+[16-Aug-2017 13:58:29 UTC] PHP Notice:  Undefined index: price_name in /home/eropa/public_html/include/config.php on line 265
+[16-Aug-2017 13:58:29 UTC] PHP Notice:  Undefined variable: id in /home/eropa/public_html/ajaxchat/sendChatData.php on line 156
+[16-Aug-2017 13:58:57 UTC] PHP Notice:  Undefined index: bonus in /home/eropa/public_html/include/config.php on line 262
+[16-Aug-2017 13:58:57 UTC] PHP Notice:  Undefined index: price_vip in /home/eropa/public_html/include/config.php on line 263
+[16-Aug-2017 13:58:57 UTC] PHP Notice:  Undefined index: price_ct in /home/eropa/public_html/include/config.php on line 264
+[16-Aug-2017 13:58:57 UTC] PHP Notice:  Undefined index: price_name in /home/eropa/public_html/include/config.php on line 265
+[16-Aug-2017 13:58:57 UTC] PHP Notice:  Undefined variable: id in /home/eropa/public_html/ajaxchat/sendChatData.php on line 156

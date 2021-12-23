@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    word-break: break-word;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    background-color: #2E3B4B !important;
+    padding: 15px 100px;
+}
+
+.site {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #3C4A5B;
+    border-radius: 3px;
+    position: relative;
+    border: 1px solid #1D2836;
+    overflow: hidden;
+    color: #fff;
+}
+
+.card.transparent {
+    border: none;
+    background: transparent !important;
+}
+
+.card .content {
+    padding: 10px;
+}
+
+.card .card-title {
+    padding: 10px;
+    background-color: #C65B52;
+    box-shadow: 0px 1px 1px #2e3b4b;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card .card-title.tiny {
+    padding: 4px 10px;
+}
+
+.card .table-hover>tbody>tr:hover {
+    background-color: #2e3b4b;
+}
+
+.torrents-table {
+    margin: 0px !important;
+    color: #dadada;
+}
+
+.torrents-table td {
+    padding: 10px 8px !important;
+}
+
+.torrents-table a {
+    color: #fff;
+}
+
+th, td {
+    text-align: right !important;
+}
+
+.card .toggle-angle {
+    display: none;
+}
+
+.card.hide-content .toggle-angle {
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    font-size: 11px;
+}
+
+.cards-col > .card:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.cute-btn {
+    padding: 10px;
+    background-color: #C65B52;
+    box-shadow: 0px 1px 1px #2e3b4b;
+    border: none;
+    border-radius: 2px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.page-path {
+    color: #a9a9a9;
+}
+
+.page-path > * {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-top: 14px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        padding: 15px 0px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+
+    .mobile-no-padding {
+        padding: 0px !important;
+    }
+}

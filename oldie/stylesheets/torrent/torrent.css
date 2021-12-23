@@ -1,0 +1,35 @@
+.torrent-details-box {
+    
+}
+
+.torrent-details-box-content {
+    display: inline-grid;
+}
+
+.torrent-details-box button {
+    margin: 6px 0px;
+}
+
+.torrent-download-btns {
+    display: flex;
+}
+
+.torrent-download-btn {
+    flex-grow: 1;
+}
+
+.magnet-torrent-btn {
+    width: 60px;
+    margin-left: 5px !important;
+}
+
+.torrent-view-poster {
+    width: 220px;
+    height: 326px;
+    max-width: 220px;
+    max-height: 100%;
+}
+
+#torrent-description {
+    margin-top: 10px;
+}
